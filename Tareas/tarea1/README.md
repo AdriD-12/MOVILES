@@ -1,16 +1,19 @@
-# tarea1
+# Mc Flutter
+- widgets
+- segmentación
+- stateful
 
-A new Flutter project.
+# Lo que me costo mas trabajo 
+- Crear la acción de cambio de color en el icono
+- Segmentar las partes de la aplicación
 
-## Getting Started
+# Lo que aprendi
+- Englobar en container para dar un formato
+- Diferencia entre StatelessWidget y StatefulWidget
+- Crear un SnackBar
+- Uso de ScaffoldMessenger
+- Usar los estilos de material atraves del contexto
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Screenshots de la app
+![Vista principal](VistaPrincipal.png)
+![Vista item seleccionado](VistaItemSeleccionado.png)
