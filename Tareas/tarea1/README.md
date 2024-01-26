@@ -17,3 +17,6 @@
 # Screenshots de la app
 ![Vista principal](./VistaPrincipal.png)
 ![Vista item seleccionado](./VistaItemSeleccionado.png)
+
+# Liga Video
+[Video](https://drive.google.com/file/d/17uiEQIHfSSJ4W5U8sin-uECCdZ64_OLp/view?usp=drive_link)
