@@ -15,5 +15,5 @@
 - Usar los estilos de material atraves del contexto
 
 # Screenshots de la app
-![Vista principal](VistaPrincipal.png)
-![Vista item seleccionado](VistaItemSeleccionado.png)
+![Vista principal](./VistaPrincipal.png)
+![Vista item seleccionado](./VistaItemSeleccionado.png)
