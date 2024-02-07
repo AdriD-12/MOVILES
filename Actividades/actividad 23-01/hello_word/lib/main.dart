@@ -125,7 +125,7 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 */
 
-/*
+
 // hello word (mateapp), se hace barra de 3 widgets
 import 'package:flutter/material.dart';
 
@@ -168,9 +168,9 @@ class MyApp extends StatelessWidget {
       ),
     );
   }
-}*/
+}
 
-import 'package:flutter/material.dart';
+/*import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
 
@@ -205,4 +205,4 @@ class MyApp extends StatelessWidget {
       ),
     );
   }
-}
+}*/
