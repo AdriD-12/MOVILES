@@ -6,12 +6,13 @@ class MenuScreen extends StatefulWidget {
 }
 
 class _MenuScreenState extends State<MenuScreen> {
-  String selectedItem = 'hola';
+  String selectedItem = "";
   bool isSelected = false;
 
   void selectItem(String itemName) {
     setState(() {
       if (selectedItem == itemName) {
+        selectedItem = "";
         isSelected = !isSelected;
       } else {
         selectedItem = itemName;
@@ -21,7 +22,7 @@ class _MenuScreenState extends State<MenuScreen> {
   }
 
   void showDialogBox(String title) {
-    String content = selectedItem != null
+    String content = selectedItem != ""
         ? selectedItem
         : "Seleccione un platillo";
     showDialog(
@@ -70,31 +71,31 @@ class _MenuScreenState extends State<MenuScreen> {
             child: ListView(
               children: [
                 ListTile(
-                  leading: Icon(Icons.emoji_food_beverage_sharp),
+                  leading: Image.asset('assets/borgir.png'),
                   title: Text('Burger'),
                   selected: selectedItem == 'Burger' && isSelected,
                   onTap: () => selectItem('Burger'),
                 ),
                 ListTile(
-                  leading: Icon(Icons.local_pizza),
+                  leading: Image.asset('assets/doggy.png'),
                   title: Text('Hot Dog'),
                   selected: selectedItem == 'Hot Dog' && isSelected,
                   onTap: () => selectItem('Hot Dog'),
                 ),
                 ListTile(
-                  leading: Icon(Icons.local_pizza),
+                  leading: Image.asset('assets/frenchy.png'),
                   title: Text('Fries'),
                   selected: selectedItem == 'Fries' && isSelected,
                   onTap: () => selectItem('Fries'),
                 ),
                 ListTile(
-                  leading: Icon(Icons.local_pizza),
+                  leading: Image.asset('assets/sodi.png'),
                   title: Text('Soda'),
                   selected: selectedItem == 'Soda' && isSelected,
                   onTap: () => selectItem('Soda'),
                 ),
                 ListTile(
-                  leading: Icon(Icons.icecream),
+                  leading: Image.asset('assets/creamy.png'),
                   title: Text('Ice Cream'),
                   selected: selectedItem == 'Ice Cream' && isSelected,
                   onTap: () => selectItem('Ice Cream'),
@@ -111,7 +112,14 @@ class _MenuScreenState extends State<MenuScreen> {
                 },
                 child: Text('Pickup'),
               ),
-              VerticalDivider(),
+              SizedBox(
+                height: 40,
+                child: VerticalDivider(
+                    thickness: 2,
+                    width: 20,
+                    color: Colors.grey,
+                ),
+              ),
               ElevatedButton(
                 onPressed: () {
                   showDialogBox('Delivery');

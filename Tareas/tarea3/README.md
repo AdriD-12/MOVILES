@@ -1,16 +1,27 @@
-# tarea3
+# Menu Demo
+- Widget List tile
+- Manejo de acomodo de widgets
+- Stateful
+- VerticalDivider
 
-A new Flutter project.
+# Lo que me costo mas trabajo 
+- Lograr que el VerticalDivider fuera visible
 
-## Getting Started
+# Lo que aprendi
+- Englobar en container para dar un formato
+- Crear un  AlertDialog
+- Uso de VerticalDivider
+- Manejar el snackbar para que se quite cuando se vuelva presionar
 
-This project is a starting point for a Flutter application.
+# Screenshots de la app
+![Vista principal](./VistaPrincipal.png)
+![Vista item seleccionado](./VistaItemSelec.png)
+![Vista item no seleccionado](./VistaItemNoSelec.png)
 
-A few resources to get you started if this is your first Flutter project:
+# Liga Video
+[Video](https://drive.google.com/file/d/1fhwZWD10EdqSPhrLLOr7XX_VWrBxYcGp/view?usp=drive_link)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Referencias
+- P. Lougheed. “Add interactivity to your Flutter app”. Flutter documentation | Flutter. Accedido el 25 de enero de 2024. [En línea]. Disponible: https://docs.flutter.dev/ui/interactivity
+- Viera, E. (2022, 18 de mayo). Vertical Divider not showing. Stack Overflow. https://stackoverflow.com/questions/59960153/vertical-divider-not-showing
+- G. Spencer. “Container class - widgets library - Dart API”. Flutter - Dart API docs. Accedido el 25 de enero de 2024. [En línea]. Disponible: https://api.flutter.dev/flutter/widgets/Container-class.html
