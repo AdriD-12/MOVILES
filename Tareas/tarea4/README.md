@@ -1,16 +1,23 @@
-# tarea4
+# Menu Demo
+- Widget List tile
+- Manejo de acomodo de widgets
+- Stateful
+- Serializar un String
+- List de n cantidad de objetos
 
-A new Flutter project.
+# Lo que me costo mas trabajo 
+- Serializar un String en formato JSON
 
-## Getting Started
+# Lo que aprendi
+- Englobar en container para dar un formato
+- Utilizar un List Tile
+- Obtener información de constantes 
+- Serializar un String en formato JSON
 
-This project is a starting point for a Flutter application.
+# Screenshots de la app
+![Vista principal](./VistaPrincipal.png)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Referencias
+- Lougheed, P. (2024, 15 de febrero). Use lists. Flutter documentation | Flutter. https://docs.flutter.dev/cookbook/lists/basic-list
+- G. Spencer. “Container class - widgets library - Dart API”. Flutter - Dart API docs. Accedido el 25 de enero de 2024. [En línea]. Disponible: https://api.flutter.dev/flutter/widgets/Container-class.html
+- Morgan, B. (2023, 19 de noviembre). JSON and serialization. Flutter documentation | Flutter. https://docs.flutter.dev/data-and-backend/serialization/json

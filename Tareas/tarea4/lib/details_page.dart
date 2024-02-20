@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tarea4/details_page.dart';
 
 class DetailsPage extends StatelessWidget {
   final String image;
@@ -19,7 +20,9 @@ class DetailsPage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Detalles"),
       ),
-      body: Container(),
+      body: Container(
+        
+      ),
     );
   }
 }
