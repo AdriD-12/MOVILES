@@ -16,6 +16,7 @@
 
 # Screenshots de la app
 ![Vista principal](./VistaPrincipal.png)
+![Vista Item Seleccionado](./VistaItemSelec.png)
 
 # Referencias
 - Lougheed, P. (2024, 15 de febrero). Use lists. Flutter documentation | Flutter. https://docs.flutter.dev/cookbook/lists/basic-list
